@@ -1,6 +1,6 @@
 <?php
 
-$owners = ["6291204661", "6716561862", "6606993263", "1756796106"];  // Add owner ids here
+$owners = ["5335806790"];  // Add owner ids here
 
 function getUsersCount($filename) {
     if(file_exists($filename)) {
