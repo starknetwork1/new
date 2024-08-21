@@ -1,6 +1,6 @@
 <?php
 
-$botToken = "6826948788:AAHc42nz2K9ODAfxbn9FnABDKEQ1a-ZzUX8";
+$botToken = "7466398033:AAEOX4Q-FJfzOK62y1PWTfg2KWUvaNdeXUE";
 
 $website = "https://api.telegram.org/bot".$botToken;
 $update = file_get_contents('php://input');
@@ -29,9 +29,9 @@ $username3       = ('@'.$username);
  $info            = json_encode($update, JSON_PRETTY_PRINT); 
 $emojid = '❌';
 $emojil = '✅';
-$owner = '<code>@Gopinoob</code>';
-$botu = "𝘽𝙊𝙏 𝙐𝙋𝘿𝘼𝙏𝙀𝙎 ↯ @hackedworld69";
-$bota = "<b>|×| 𝘿𝙀𝙑 ↯ @Gopinoob</b>";$eror = "<b>Error ❌</b>";
+$owner = '<code>@devil_521</code>';
+$botu = "𝘽𝙊𝙏 𝙐𝙋𝘿𝘼𝙏𝙀𝙎 ↯ @stark_network1";
+$bota = "<b>|×| 𝘿𝙀𝙑 ↯ @devil_521</b>";$eror = "<b>Error ❌</b>";
 
 $dd = "𝗗𝗲𝗰𝗹𝗶𝗻𝗲𝗱 ❌";
 $live = "𝗔𝗽𝗽𝗿𝗼𝘃𝗲𝗱 ✅";
@@ -87,7 +87,7 @@ $callbackmessage = $update->callback_query->message->text;
 $callbackid = $update->callback_query->id;
 
 $text = $update->message->text;
-$owner = '<code>@hackedworld69</code>';
+$owner = '<code>@stark_network1</code>';
 
 
 
@@ -151,7 +151,7 @@ if ($cdata2 == "buy") {
 
                                  $gatesKeyboard = json_encode([
                                  'inline_keyboard' => [
-                                     [                     ['text' => '• 𝙑𝙀𝙍𝙄𝙁𝙔 𝙋𝘼𝙔𝙈𝙀𝙉𝙏 •', 'url' => 'https://t.me/Gopinoob'],   ], ]
+                                     [                     ['text' => '• 𝙑𝙀𝙍𝙄𝙁𝙔 𝙋𝘼𝙔𝙈𝙀𝙉𝙏 •', 'url' => 'https://t.me/devil_521'],   ], ]
   ]);
 
 
@@ -174,7 +174,7 @@ if ($cdata2 == "buy") {
 $keyboard = json_encode([
     'inline_keyboard' => [
         [
-            ['text' => "↯ 𝘽𝙐𝙔 𝘼𝘾𝘾𝙀𝙎𝙎", 'url' => "https://t.me/Gopinoob"],
+            ['text' => "↯ 𝘽𝙐𝙔 𝘼𝘾𝘾𝙀𝙎𝙎", 'url' => "https://t.me/devil_521"],
         ],
     ]
 ]);
